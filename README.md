@@ -4,7 +4,7 @@ A simple example of writing Hello World utilizing (Angular)[https://angularjs.or
 # What is this?
 This example shows how to utilize Angular and AMD via RequireJS for application modularization. RequireJS will load modules. Angular will handle dependency injections. This will allow the application to have a simplified index.html, because RequireJS will load of the the JavaScript files.
 
-## DO this first
+## Do this first
 Before looking at Angular with AMD via RequireJS take a look at how to achieve this in [AMD and RequireJS](https://github.com/DevelopIntelligenceBoulder/hello-amd) and in [Angular 1.x](https://github.com/DevelopIntelligenceBoulder/hello-angular-1) .
 
 ## Angular
