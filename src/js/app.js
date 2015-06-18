@@ -9,19 +9,18 @@ requirejs.config({
     paths: {
         //Location of the application JavaScript in reference
         //  to the baseUrl
-        "app": "../app",
-        "angular": "angular"
+        "app": "../app"
     },
+    //Shim to allow angular to be treated as an AMD module
     shim: {
         angular: {
             exports: "angular"
         }
-    },
-    deps: ["app"]
+    }
 });
 
 /**
- * Only call to requirejs bootstraps the initial module and depenedency tree.
+ * Only call to requirejs bootstraps the initial module and dependency tree.
  *   i.e. the Application Controller
  */
 requirejs(["app/main"]);

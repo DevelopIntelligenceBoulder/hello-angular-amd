@@ -6,10 +6,12 @@ define([
     'use strict';
 
     //Angular 1.x
-    //Creating Hello Angular application
-    var app = angular.module('app', ['hello']);
+    angular
+        //Creating Angular application and injection the hello module
+        .module('app', ['hello'])
 
-    app.controller('AppController', AppController);
+        //Attaching the application controller to the main angular application
+        .controller('AppController', AppController);
 
     //Application manually needs to bootstrap angular
     //  Can only be bootstrap after RequireJS has loaded all its modules

@@ -2,12 +2,11 @@ define([
 ], function() {
     'use strict';
 
-    console.log('controller out');
     /** 
      * Main Controller for the application.
      **/
     function AppController($scope) {
-        console.log('controller in');
+
         //If we need to dependency inject and Angular service
         console.log($scope);
 

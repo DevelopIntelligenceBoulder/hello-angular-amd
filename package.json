@@ -1,6 +1,6 @@
 {
   "name": "hello-angular-amd",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Hello World in Angular 1 utilizing AMD & RequireJS",
   "scripts": {
     "start": "node server.js",
