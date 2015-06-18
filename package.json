@@ -1,0 +1,23 @@
+{
+  "name": "hello-angular-amd",
+  "version": "0.0.1",
+  "description": "Hello World in Angular 1 utilizing AMD & RequireJS",
+  "scripts": {
+    "start": "node server.js",
+    "prestart": "npm install"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/DevelopIntelligenceBoulder/hello-angular-amd.git"
+  },
+  "author": "Kamren Zorgdrager <kamrenz@gmail.com>",
+  "license": "MIT",
+  "homepage": "https://github.com/DevelopIntelligenceBoulder/hello-angular-amd",
+  "devDependencies": {
+    "express": "^4.12.4"
+  },
+  "dependencies": {
+    "angular": "^1.4.0",
+    "requirejs": "^2.1.18"
+  }
+}

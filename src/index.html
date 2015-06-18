@@ -2,8 +2,9 @@
 <html>
 	<head>
 		<title>Hello World in Angular 1 utilizing AMD & RequireJS</title>
+		<script data-main="js/app" src="js/lib/require.js"></script>
 	</head>
-	<body ng-app="hello" ng-controller="AppController as ac">
+	<body ng-controller="AppController as ac">
 		
 		<!-- With Angular template -->
 		<h1>Hello {{ac.place}}</h1>
@@ -11,9 +12,5 @@
 		<!-- With Angular directive -->
 		<di-hello place="{{ac.place}}"></di-hello>
 
-		<script src="/node_modules/angular/angular.js"></script>
-		<script src="js/main.js"></script>
-		<script src="js/application-controller.js"></script>
-		<script src="js/hello-directive.js"></script>		
 	</body>
 </html>
